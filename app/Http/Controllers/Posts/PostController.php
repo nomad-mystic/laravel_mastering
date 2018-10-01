@@ -95,6 +95,7 @@ class PostController extends Controller
 			'Nick',
 			'Kevin',
 			'Sam',
+			'Sandy',
 		];
 		return view('common.contact', compact('people'));
 	}
