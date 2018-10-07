@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Posts;
 
+use DebugBar\DebugBar;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -95,7 +96,7 @@ class PostController extends Controller
 			'Nick',
 			'Kevin',
 			'Sam',
-			'Sandy',
+			'frank',
 		];
 		return view('common.contact', compact('people'));
 	}
